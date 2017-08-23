@@ -12,31 +12,26 @@ var _link = require('next/dist/lib/link.js');
 
 var _link2 = _interopRequireDefault(_link);
 
+var _someLayout = require('../components/someLayout');
+
+var _someLayout2 = _interopRequireDefault(_someLayout);
+
+var _postLink = require('../components/postLink');
+
+var _postLink2 = _interopRequireDefault(_postLink);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/Users/martinbanks/gitHubProjects/lesson-nextjs/pages/index.js?entry';
-
+var styles = {
+	color: 'green',
+	fontSize: 12,
+	padding: 24,
+	borderRadius: 8,
+	background: 'white'
+};
 
 var Index = function Index() {
-	return _react2.default.createElement('div', {
-		__source: {
-			fileName: _jsxFileName,
-			lineNumber: 4
-		}
-	}, _react2.default.createElement('p', {
-		__source: {
-			fileName: _jsxFileName,
-			lineNumber: 5
-		}
-	}, 'Hello world'), _react2.default.createElement(_link2.default, { href: '/about', __source: {
-			fileName: _jsxFileName,
-			lineNumber: 6
-		}
-	}, _react2.default.createElement('button', { style: { color: 'red' }, __source: {
-			fileName: _jsxFileName,
-			lineNumber: 7
-		}
-	}, 'Link to about page')));
+	return _react2.default.createElement('div', null, _react2.default.createElement(_someLayout2.default, null, _react2.default.createElement('h1', null, 'Next blog'), _react2.default.createElement('ul', null, _react2.default.createElement(_postLink2.default, { title: 'Hello world' }), _react2.default.createElement(_postLink2.default, { title: 'Learning next.js' }), _react2.default.createElement(_postLink2.default, { title: 'Deploy apps with zeit' }))));
 };
 
 exports.default = Index;
