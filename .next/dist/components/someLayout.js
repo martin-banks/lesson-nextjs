@@ -14,6 +14,9 @@ var _header2 = _interopRequireDefault(_header);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var _jsxFileName = '/Users/banksm/_PROJECTS_GITHUB/lesson-nextjs/components/someLayout.js';
+
+
 var layoutStyle = {
 	margin: 20,
 	padding: 20,
@@ -22,7 +25,16 @@ var layoutStyle = {
 };
 
 var Layout = function Layout(props) {
-	return _react2.default.createElement('div', { style: layoutStyle }, _react2.default.createElement(_header2.default, null), props.children);
+	return _react2.default.createElement('div', { style: layoutStyle, __source: {
+			fileName: _jsxFileName,
+			lineNumber: 11
+		}
+	}, _react2.default.createElement(_header2.default, {
+		__source: {
+			fileName: _jsxFileName,
+			lineNumber: 12
+		}
+	}), props.children);
 };
 
 exports.default = Layout;

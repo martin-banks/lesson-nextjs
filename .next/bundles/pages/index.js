@@ -1,6 +1,0 @@
-
-          window.__NEXT_REGISTER_PAGE('/', function() {
-            var comp = module.exports=webpackJsonp([4],{361:function(e,t,l){e.exports=l(362)},362:function(e,t,l){"use strict";function u(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(t,"__esModule",{value:!0});var n=l(7),a=u(n),r=l(115),f=(u(r),l(114)),d=u(f),c=l(363),i=u(c),o=function(){return a.default.createElement("div",null,a.default.createElement(d.default,null,a.default.createElement("h1",null,"Next blog"),a.default.createElement("ul",null,a.default.createElement(i.default,{title:"Hello world"}),a.default.createElement(i.default,{title:"Learning next.js"}),a.default.createElement(i.default,{title:"Deploy apps with zeit"}))))};t.default=o},363:function(e,t,l){"use strict";function u(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(t,"__esModule",{value:!0});var n=l(7),a=u(n),r=l(115),f=u(r),d=function(e){return a.default.createElement("li",null,a.default.createElement(f.default,{href:"/post?title="+e.title},a.default.createElement("a",null,e.title)))};t.default=d}},[361]);
-            return { page: comp.default }
-          })
-        
